@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container{
+    
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.navbar{
+    padding: 22px 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.agency a{
+    text-decoration: none;
+    position: absolute;
+    left: 100px;
+    font-weight: bold;
+    color: #3136B0;
+    font-size: 20px;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 656;
+    font-size: 16px;
+}
+
+.navbar .call_btn button{
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #353DFF;
+    border-radius: 0px 0px 0px 16px;
+    color: white;
+    width: 282px;
+    height: 62px;
+}
+
+.main_page{
+    display: flex;
+    position: relative;
+}
+
+.travel_card{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    position: absolute;
+    left: 720px;
+    top: 80px;
+    color: white;
+    width: 488px;
+    height: 345px;
+    background: #13161D;
+    border-radius: 24px;
+}
+.header .img{
+    height: 606px;
+}
+
+.travel_text h2{
+    font-weight: 656;
+    font-size: 24px;
+    color: #8186FF;
+}
+
+.travel_text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.travel_text p{
+    color: #ffffff80;
+}
+
+.card_btn{
+    display: flex;
+    gap: 16px;
+}
+
+.card_btn button{
+    color: white;
+    border: none;
+    background: #353DFF;
+    border-radius: 8px;
+    width: 153px;
+    height: 40px;
+}
+
+.card_btn .btn2, .leftBox_btn button, form button{
+    width: 153px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    background: #ffffff00;
+    border-radius: 8px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.services{
+    display: flex;
+    background-color: #3136B0;
+    height: 613px;
+    padding: 111px 256px;
+    justify-content: space-between;
+    gap: 128px;
+}
+
+.leftBox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.r_cards .r_card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 32px 24px;
+    color: white;
+    width: 286px;
+    height: 183px;
+    background: #242996;
+    border-radius: 16px;
+}
+
+.r_cards{
+    gap: 20px;
+    width: 612px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.r_card_white{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 32px 24px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 286px;
+    height: 183px;
+}
+
+.why_us{
+    padding: 96px 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+}
+
+.why_us h1{
+    font-size: 40px;
+}
+
+.why_cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 975px;
+    gap: 46px;
+    justify-content: center;
+}
+
+.why_card{
+    width: 975px;
+    padding: 24px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #E0E0F1;
+    border-radius: 8px;
+    width: 279px;
+    height: 199px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.why_card .why_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 24px;
+    top: -17px;
+    background: #3136B0;
+    border-radius: 12px;
+}
+
+.why_text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 44px;
+}
+
+.why_text h3{
+    font-size: 16px;
+}
+
+.why_text p{
+    font-size: 14px;
+}
+
+.we_call{
+    padding: 80px 380px;
+    background: #13161D;
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    align-items: center;
+}
+
+.we_call h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.we_call form input{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #ffffff00;
+    border-bottom: 1px solid white;
+    width: 313px;
+    padding: 13px 5px;
+}
+
+.we_call form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 61px;
+}
+
+.we_call form .inputs{
+    display: flex;
+    gap: 54px;
+}
+
+.we_serve{
+    padding: 59px 256px;
+    margin-top: 84px;
+}
+
+.topBox .leftBox2 .serve{
+    font-size: 30px;
+    display: flex;
+    gap: 12px;
+}
+
+.color_text{
+    color: #3136B0;
+}
+
+.topBox .leftBox2{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.topBox{
+    display: flex;
+    gap: 73px;
+    justify-content: space-between;
+}
+
+.topBox p{
+    width: 343px;
+    font-size: 18px;
+    color: rgba(19, 22, 29, 0.75);
+}
+
+.bottom{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.chevrons{
+    display: flex;
+    gap: 14px;
+}
+
+.chevrons .left, .chevrons .right{
+    border: none;
+    background-color: #ffffffa5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 0px 6px rgba(128, 128, 128, 0.567);
+}
+
+.about_us{
+    padding: 12px 256px;
+    display: flex;
+    justify-content: space-between;
+    gap: 51px;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 465px;
+    margin-top: 40px;
+    color: rgba(19, 22, 29, 0.75);
+}
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 256px;
+    gap: 23px;
+}
+
+.leftBox3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    background: #3136B0;
+    border-radius: 24px;
+    min-width: 341px;
+    min-height: 340px;
+}
+
+.leftBox3 p{
+    font-size: 24px;
+}
+
+.leftBox3 h1{
+    font-size: 40px;
+}
+
+.r_box{
+    width: 563px;
+    height: 340px;
+    background: #FCFCFC;
+    border: 1px solid #E0E0F1;
+    border-radius: 24px;
+    padding: 48px 32px;
+}
+
+.r_box .top_btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote{
+    background: #3136B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 37px;
+    height: 37px;
+    color: white;
+}
+
+.name{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.name h1{
+    font-size: 20px;
+}
+
+.name p{
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 15px;
+}
+
+.lines{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+
+.line{
+    width: 44px;
+    border: 5px solid #3136B0;
+    border-radius: 5px;
+}
+
+.eclipse{
+    width: 6px;
+    border: 5px solid #BFBFBF;
+    border-radius: 5px;
+}
+
+.contact{
+    gap: 75px;
+    padding: 122px 256px;
+}
+
+.loc, .tel, .mail{
+    display: flex;
+    gap: 14px;
+}
+
+.sides{
+    display: flex;
+    justify-content: space-between;
+    gap: 81px;
+}
+
+.contact h1{
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 40px;
+    color: #13161D;
+}
+
+.rightside textarea{
+    width: 407px;
+    height: 192px;
+    resize: none;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.rightside  form .msg input{
+    padding: 10px;
+    border: none;
+    width: 407px;
+    height: 37px;
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+
+.rightside button{
+    width: 407px;
+    height: 42px;
+    border: none;
+    background: #353DFF;
+    border-radius: 8px;
+    margin-top: 31px;
+}
+
+.rightside form .msg{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.footer{
+    padding: 132px 256px;
+    display: flex;
+    justify-content: space-between;
+    gap: 88px;
+    background: #13161D;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.travel_link{
+    margin-right: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.travel_link a{
+    color: #353DFF;
+    font-size: 20px;
+    font-weight: 656;
+}
+
+.travel_link p{
+    color: #ffffff5f; 
+    font-size: 12px;
+    font-weight: 100;
+    width: 203px;
+}
+
+.data{
+    margin-top: 53px;
+    color: #636363;
+    font-size: 15px;
+}
+
+.servis ul, .about ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.servis a, .about a, .address p{
+    color: #ffffff89;
+    font-size: 15px;
+}
+
+.servis h1, .about h1, .address h1{
+    width: 80px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.servis, .about, .address{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.agency a:hover hr, .links a:hover hr{
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    background-color: #353DFF;
+}
+
+.agency a hr, .links a hr{
+    width: 0px;
+    border: none;
+    background-color: white;
+    height: 4px;
+    transition: 0.5s all ease;
+}
+
+a:active{
+    color: #8186FF;
+}
+
+button:hover, .btn2:hover{
+    box-shadow: 0 0 20px 5px #8186FF;
+}
+
+button:active, .btn2:active, .call_btn button:active{
+    background-color: #242996;
+}
